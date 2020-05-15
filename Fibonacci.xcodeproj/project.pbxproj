@@ -3,10 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31572B9571B865ECEEC0793F /* Pods_Fibonacci_FibonacciTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C7D34604B7DE82DA20AE8F /* Pods_Fibonacci_FibonacciTests.framework */; };
+		6F72492F84D3E6AFF85F8464 /* Pods_Fibonacci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750D2CAC14D6C505980F5595 /* Pods_Fibonacci.framework */; };
+		AE721A68246C89FA00EA63A5 /* test.4.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A4D246C89FA00EA63A5 /* test.4.out */; };
+		AE721A69246C89FA00EA63A5 /* test.5.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A4E246C89FA00EA63A5 /* test.5.in */; };
+		AE721A6A246C89FA00EA63A5 /* test.5.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A4F246C89FA00EA63A5 /* test.5.out */; };
+		AE721A6C246C89FA00EA63A5 /* test.6.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A51246C89FA00EA63A5 /* test.6.out */; };
+		AE721A6D246C89FA00EA63A5 /* test.1.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A52246C89FA00EA63A5 /* test.1.in */; };
+		AE721A6E246C89FA00EA63A5 /* test.2.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A53246C89FA00EA63A5 /* test.2.out */; };
+		AE721A70246C89FA00EA63A5 /* test.3.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A55246C89FA00EA63A5 /* test.3.out */; };
+		AE721A71246C89FA00EA63A5 /* test.0.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A56246C89FA00EA63A5 /* test.0.in */; };
+		AE721A72246C89FA00EA63A5 /* test.1.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A57246C89FA00EA63A5 /* test.1.out */; };
+		AE721A73246C89FA00EA63A5 /* test.4.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A58246C89FA00EA63A5 /* test.4.in */; };
+		AE721A74246C89FA00EA63A5 /* test.0.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A59246C89FA00EA63A5 /* test.0.out */; };
+		AE721A75246C89FA00EA63A5 /* problem.txt in Resources */ = {isa = PBXBuildFile; fileRef = AE721A5A246C89FA00EA63A5 /* problem.txt */; };
+		AE721A7C246C89FA00EA63A5 /* test.3.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A61246C89FA00EA63A5 /* test.3.in */; };
+		AE721A7E246C89FA00EA63A5 /* test.6.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A63246C89FA00EA63A5 /* test.6.in */; };
+		AE721A81246C89FA00EA63A5 /* test.2.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A66246C89FA00EA63A5 /* test.2.in */; };
+		AE721A8D246EAC3300EA63A5 /* ExponentiationAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE721A8C246EAC3300EA63A5 /* ExponentiationAlgorithms.swift */; };
+		AE721A8F246EAC7800EA63A5 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE721A8E246EAC7800EA63A5 /* Fibonacci.swift */; };
+		AE721A90246EAC9A00EA63A5 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE721A8E246EAC7800EA63A5 /* Fibonacci.swift */; };
+		AE721A92246EACA900EA63A5 /* Matrix2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE721A91246EACA900EA63A5 /* Matrix2D.swift */; };
+		AE721A93246EAE2F00EA63A5 /* ExponentiationAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE721A8C246EAC3300EA63A5 /* ExponentiationAlgorithms.swift */; };
+		AE721A94246EAE3200EA63A5 /* Matrix2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE721A91246EACA900EA63A5 /* Matrix2D.swift */; };
 		AEAE20B824672414006C455C /* Fibonacci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAE20AE24672414006C455C /* Fibonacci.framework */; };
 		AEAE20BD24672414006C455C /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE20BC24672414006C455C /* FibonacciTests.swift */; };
 		AEAE20BF24672414006C455C /* Fibonacci.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAE20B124672414006C455C /* Fibonacci.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,12 +46,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126F0CDCAA8872AC77D6274E /* Pods-Fibonacci-FibonacciTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci-FibonacciTests.release.xcconfig"; path = "Target Support Files/Pods-Fibonacci-FibonacciTests/Pods-Fibonacci-FibonacciTests.release.xcconfig"; sourceTree = "<group>"; };
+		2342389F6ED70EA62763CFB5 /* Pods-Fibonacci-FibonacciTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci-FibonacciTests.debug.xcconfig"; path = "Target Support Files/Pods-Fibonacci-FibonacciTests/Pods-Fibonacci-FibonacciTests.debug.xcconfig"; sourceTree = "<group>"; };
+		750D2CAC14D6C505980F5595 /* Pods_Fibonacci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE721A4D246C89FA00EA63A5 /* test.4.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.4.out; sourceTree = "<group>"; };
+		AE721A4E246C89FA00EA63A5 /* test.5.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.5.in; sourceTree = "<group>"; };
+		AE721A4F246C89FA00EA63A5 /* test.5.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.5.out; sourceTree = "<group>"; };
+		AE721A51246C89FA00EA63A5 /* test.6.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.6.out; sourceTree = "<group>"; };
+		AE721A52246C89FA00EA63A5 /* test.1.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.1.in; sourceTree = "<group>"; };
+		AE721A53246C89FA00EA63A5 /* test.2.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.2.out; sourceTree = "<group>"; };
+		AE721A55246C89FA00EA63A5 /* test.3.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.3.out; sourceTree = "<group>"; };
+		AE721A56246C89FA00EA63A5 /* test.0.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.0.in; sourceTree = "<group>"; };
+		AE721A57246C89FA00EA63A5 /* test.1.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.1.out; sourceTree = "<group>"; };
+		AE721A58246C89FA00EA63A5 /* test.4.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.4.in; sourceTree = "<group>"; };
+		AE721A59246C89FA00EA63A5 /* test.0.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.0.out; sourceTree = "<group>"; };
+		AE721A5A246C89FA00EA63A5 /* problem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = problem.txt; sourceTree = "<group>"; };
+		AE721A61246C89FA00EA63A5 /* test.3.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.3.in; sourceTree = "<group>"; };
+		AE721A63246C89FA00EA63A5 /* test.6.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.6.in; sourceTree = "<group>"; };
+		AE721A66246C89FA00EA63A5 /* test.2.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.2.in; sourceTree = "<group>"; };
+		AE721A8C246EAC3300EA63A5 /* ExponentiationAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponentiationAlgorithms.swift; sourceTree = "<group>"; };
+		AE721A8E246EAC7800EA63A5 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		AE721A91246EACA900EA63A5 /* Matrix2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix2D.swift; sourceTree = "<group>"; };
 		AEAE20AE24672414006C455C /* Fibonacci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fibonacci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAE20B124672414006C455C /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		AEAE20B224672414006C455C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEAE20B724672414006C455C /* FibonacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAE20BC24672414006C455C /* FibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
 		AEAE20BE24672414006C455C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B392957C5A42A0FCE207C86F /* Pods-Fibonacci.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci.debug.xcconfig"; path = "Target Support Files/Pods-Fibonacci/Pods-Fibonacci.debug.xcconfig"; sourceTree = "<group>"; };
+		C8EB491E3359EDBC6730BB1F /* Pods-Fibonacci.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci.release.xcconfig"; path = "Target Support Files/Pods-Fibonacci/Pods-Fibonacci.release.xcconfig"; sourceTree = "<group>"; };
+		F9C7D34604B7DE82DA20AE8F /* Pods_Fibonacci_FibonacciTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci_FibonacciTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F72492F84D3E6AFF85F8464 /* Pods_Fibonacci.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +92,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEAE20B824672414006C455C /* Fibonacci.framework in Frameworks */,
+				31572B9571B865ECEEC0793F /* Pods_Fibonacci_FibonacciTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D5E524502404CC95EDCAAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B392957C5A42A0FCE207C86F /* Pods-Fibonacci.debug.xcconfig */,
+				C8EB491E3359EDBC6730BB1F /* Pods-Fibonacci.release.xcconfig */,
+				2342389F6ED70EA62763CFB5 /* Pods-Fibonacci-FibonacciTests.debug.xcconfig */,
+				126F0CDCAA8872AC77D6274E /* Pods-Fibonacci-FibonacciTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE721A4C246C89FA00EA63A5 /* 4.Fibo 2 */ = {
+			isa = PBXGroup;
+			children = (
+				AE721A5A246C89FA00EA63A5 /* problem.txt */,
+				AE721A56246C89FA00EA63A5 /* test.0.in */,
+				AE721A59246C89FA00EA63A5 /* test.0.out */,
+				AE721A52246C89FA00EA63A5 /* test.1.in */,
+				AE721A57246C89FA00EA63A5 /* test.1.out */,
+				AE721A66246C89FA00EA63A5 /* test.2.in */,
+				AE721A53246C89FA00EA63A5 /* test.2.out */,
+				AE721A61246C89FA00EA63A5 /* test.3.in */,
+				AE721A55246C89FA00EA63A5 /* test.3.out */,
+				AE721A58246C89FA00EA63A5 /* test.4.in */,
+				AE721A4D246C89FA00EA63A5 /* test.4.out */,
+				AE721A4E246C89FA00EA63A5 /* test.5.in */,
+				AE721A4F246C89FA00EA63A5 /* test.5.out */,
+				AE721A63246C89FA00EA63A5 /* test.6.in */,
+				AE721A51246C89FA00EA63A5 /* test.6.out */,
+			);
+			path = "4.Fibo 2";
+			sourceTree = "<group>";
+		};
 		AEAE20A424672414006C455C = {
 			isa = PBXGroup;
 			children = (
 				AEAE20B024672414006C455C /* Fibonacci */,
 				AEAE20BB24672414006C455C /* FibonacciTests */,
 				AEAE20AF24672414006C455C /* Products */,
+				10D5E524502404CC95EDCAAD /* Pods */,
+				D3BC97F90E57376608E8C937 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +155,12 @@
 		AEAE20B024672414006C455C /* Fibonacci */ = {
 			isa = PBXGroup;
 			children = (
+				AE721A4C246C89FA00EA63A5 /* 4.Fibo 2 */,
 				AEAE20B124672414006C455C /* Fibonacci.h */,
 				AEAE20B224672414006C455C /* Info.plist */,
+				AE721A8C246EAC3300EA63A5 /* ExponentiationAlgorithms.swift */,
+				AE721A8E246EAC7800EA63A5 /* Fibonacci.swift */,
+				AE721A91246EACA900EA63A5 /* Matrix2D.swift */,
 			);
 			path = Fibonacci;
 			sourceTree = "<group>";
@@ -84,6 +172,15 @@
 				AEAE20BE24672414006C455C /* Info.plist */,
 			);
 			path = FibonacciTests;
+			sourceTree = "<group>";
+		};
+		D3BC97F90E57376608E8C937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				750D2CAC14D6C505980F5595 /* Pods_Fibonacci.framework */,
+				F9C7D34604B7DE82DA20AE8F /* Pods_Fibonacci_FibonacciTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEAE20C224672414006C455C /* Build configuration list for PBXNativeTarget "Fibonacci" */;
 			buildPhases = (
+				E296B23BFDE87467E2CCAF33 /* [CP] Check Pods Manifest.lock */,
 				AEAE20A924672414006C455C /* Headers */,
 				AEAE20AA24672414006C455C /* Sources */,
 				AEAE20AB24672414006C455C /* Frameworks */,
@@ -122,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEAE20C524672414006C455C /* Build configuration list for PBXNativeTarget "FibonacciTests" */;
 			buildPhases = (
+				E515B56390C8A85CCAD9E12D /* [CP] Check Pods Manifest.lock */,
 				AEAE20B324672414006C455C /* Sources */,
 				AEAE20B424672414006C455C /* Frameworks */,
 				AEAE20B524672414006C455C /* Resources */,
+				3C73A5C2F9AA73C5AFC0309A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +248,7 @@
 				TargetAttributes = {
 					AEAE20AD24672414006C455C = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					AEAE20B624672414006C455C = {
 						CreatedOnToolsVersion = 11.3;
@@ -178,6 +279,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE721A68246C89FA00EA63A5 /* test.4.out in Resources */,
+				AE721A81246C89FA00EA63A5 /* test.2.in in Resources */,
+				AE721A69246C89FA00EA63A5 /* test.5.in in Resources */,
+				AE721A6C246C89FA00EA63A5 /* test.6.out in Resources */,
+				AE721A6A246C89FA00EA63A5 /* test.5.out in Resources */,
+				AE721A71246C89FA00EA63A5 /* test.0.in in Resources */,
+				AE721A74246C89FA00EA63A5 /* test.0.out in Resources */,
+				AE721A6D246C89FA00EA63A5 /* test.1.in in Resources */,
+				AE721A73246C89FA00EA63A5 /* test.4.in in Resources */,
+				AE721A7C246C89FA00EA63A5 /* test.3.in in Resources */,
+				AE721A7E246C89FA00EA63A5 /* test.6.in in Resources */,
+				AE721A75246C89FA00EA63A5 /* problem.txt in Resources */,
+				AE721A70246C89FA00EA63A5 /* test.3.out in Resources */,
+				AE721A72246C89FA00EA63A5 /* test.1.out in Resources */,
+				AE721A6E246C89FA00EA63A5 /* test.2.out in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +306,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C73A5C2F9AA73C5AFC0309A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fibonacci-FibonacciTests/Pods-Fibonacci-FibonacciTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fibonacci-FibonacciTests/Pods-Fibonacci-FibonacciTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fibonacci-FibonacciTests/Pods-Fibonacci-FibonacciTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E296B23BFDE87467E2CCAF33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fibonacci-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E515B56390C8A85CCAD9E12D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fibonacci-FibonacciTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEAE20AA24672414006C455C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE721A92246EACA900EA63A5 /* Matrix2D.swift in Sources */,
+				AE721A8F246EAC7800EA63A5 /* Fibonacci.swift in Sources */,
+				AE721A8D246EAC3300EA63A5 /* ExponentiationAlgorithms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +385,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE721A94246EAE3200EA63A5 /* Matrix2D.swift in Sources */,
+				AE721A90246EAC9A00EA63A5 /* Fibonacci.swift in Sources */,
 				AEAE20BD24672414006C455C /* FibonacciTests.swift in Sources */,
+				AE721A93246EAE2F00EA63A5 /* ExponentiationAlgorithms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +525,9 @@
 		};
 		AEAE20C324672414006C455C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B392957C5A42A0FCE207C86F /* Pods-Fibonacci.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -356,6 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.Fibonacci;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +552,9 @@
 		};
 		AEAE20C424672414006C455C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EB491E3359EDBC6730BB1F /* Pods-Fibonacci.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -387,7 +578,9 @@
 		};
 		AEAE20C624672414006C455C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2342389F6ED70EA62763CFB5 /* Pods-Fibonacci-FibonacciTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = FibonacciTests/Info.plist;
@@ -405,7 +598,9 @@
 		};
 		AEAE20C724672414006C455C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126F0CDCAA8872AC77D6274E /* Pods-Fibonacci-FibonacciTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = FibonacciTests/Info.plist;
